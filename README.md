@@ -12,10 +12,6 @@ Automatically determines whether a newly created project belongs to the **Inform
 
 * The AI analyzes the project’s **title and description**.
 * If the content mentions IT-related topics like `web`, `mobile`, `software`, `AI`, `cloud`, `API`, etc., the system accepts the project and returns:
-
-  ```json
-  { "isIT": "yes", "confidence": 0.92 }
-  ```
 * Projects unrelated to IT (e.g., agriculture, construction, or general education) are rejected to keep the system focused on tech-based domains.
 
 ---
