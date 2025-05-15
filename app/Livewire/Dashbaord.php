@@ -2,7 +2,6 @@
 
 namespace App\Livewire;
 
-use App\Models\Project;
 use App\Models\Task;
 use Livewire\Component;
 use Illuminate\Support\Collection;
